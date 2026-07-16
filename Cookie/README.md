@@ -43,8 +43,9 @@ The actual user state is stored on the server side, such as:
 
 The important distinction:
 
-> Cookie = A value controlled and sent by the client
-> Session = User state managed by the server
+Cookie → A value controlled and sent by the client
+
+Session → User state managed by the server
 
 A secure design usually makes the session identifier only a reference, not a container for sensitive authorization data.
 
